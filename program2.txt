@@ -1,0 +1,10 @@
+1110 # Put RAM 10 in reg 1
+1212 # Put RAM 12 in reg 2
+5312 # Add reg 1 and 2 and put in 3
+3314 # Store result in RAM 14
+C000
+
+
+
+23
+32

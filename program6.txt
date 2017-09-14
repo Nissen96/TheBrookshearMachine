@@ -1,0 +1,18 @@
+1020 # RAM 20 => reg 0
+1122 # RAM 22 => reg 1
+23F0 # 11110000 => reg 3
+240F # 00001111 => reg 4
+8603 # 0 AND 3 => reg 6 (First 4 bits)
+8714 # 1 AND 4 => reg 7 (Last 4 bits)
+7967 # 6 OR 7 => reg 9 (Combine first 4 from 6 and last 4 from 7)
+3922 # reg 9 => RAM 22
+C000
+
+
+
+
+
+
+
+23
+56

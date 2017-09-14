@@ -1,0 +1,17 @@
+1020 # RAM 20 => reg 0
+21FF # 11111111 => reg 1
+2201 # 01 => reg 2
+9301 # 0 XOR 1 => reg 3 (Inverted - 1)
+5423 # reg 2 + reg 3 (XOR + 1) = Inverted => reg 4
+3422 # Reg 4 => RAM 22
+c000
+
+
+
+
+
+
+
+
+
+4A

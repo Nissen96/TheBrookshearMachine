@@ -1,0 +1,16 @@
+1120 # k - RAM 20 => reg 1
+2455 # 55 => reg 4
+25FF # FF => reg 5
+3422 # 55 => 22 (is overwritten later if k not equals 0)
+B10C # If k == 0, jump to stop
+3522 # FF => RAM 22 (Is only run if k not equals 0)
+C000
+
+
+
+
+
+
+
+
+02

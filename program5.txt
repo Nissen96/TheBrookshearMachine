@@ -1,0 +1,9 @@
+1010 # Read from RAM 10 to reg 0
+210F # Put bits 00001111 in reg 1
+8301 # Bitwise and of reg 0 and 1 (AND of n and 00001111 makes the first 4 0's and keeps the rest)
+3312 # Result => RAM 12
+C000
+
+
+
+23

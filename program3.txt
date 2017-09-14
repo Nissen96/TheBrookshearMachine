@@ -1,0 +1,13 @@
+2001 # Counter
+2101 # Increment
+2200 # Result
+1518 # Stop increment from 18
+5202 # Add result and counter - put in result
+5001 # Add counter and increment - put in counter
+32E1 # Put result in RAM
+D508 # If cell 5 greater than counter jump to 08
+c000
+
+
+
+05
